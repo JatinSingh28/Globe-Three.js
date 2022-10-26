@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy":"gh-pages -d dist"
   },
   "devDependencies": {
     "vite": "^3.1.0",
@@ -14,6 +15,19 @@
     "vite-plugin-string": "^1.1.2"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "three": "^0.145.0"
-  }
+  },
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JatinSingh28/Globe-Three.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JatinSingh28/Globe-Three.js/issues"
+  },
+  "homepage": "https://github.com/JatinSingh28/Globe-Three.js#readme",
+  "description": ""
 }
